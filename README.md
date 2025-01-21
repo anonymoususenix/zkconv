@@ -34,19 +34,17 @@ To use zkConv in your project, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/zkConv.git
+   git clone https://github.com/anonymoususenix/zkconv.git
    ```
-2. Navigate to the project directory:
-   ```sh
-   cd zkConv
-   ```
+2. Navigate to the project root
+
 3. Build the project:
    ```sh
    cargo build --release
    ```
 4. Run examples or benchmarks as needed:
    ```sh
-   cargo run --example <example_name>
+   cargo bench
    ```
 
 ## Contributing
@@ -56,7 +54,8 @@ We welcome contributions to zkConv! If you have ideas for improvements, please f
 ## License
 
 zkConv is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the license terms.
-
 ---
 
 For more information or questions, please contact the project maintainers.
+
+The author of this repository is identified by the SHA256 hash: `2bd2b50a15fd3ba6f076e9321b98a4edac9c8f257560ce4ea8c8cef2f10d80cf` for credibility purposes.

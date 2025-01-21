@@ -32,7 +32,8 @@ The results will include detailed performance insights, including execution time
 
 To use zkConv in your project, follow these steps:
 
-1. Clone the repository:
+1. Ensure you have the Rust toolchain installed, preferably the nightly version (e.g., `rustc 1.86.0-nightly`).
+2. Clone the repository:
    ```sh
    git clone https://github.com/anonymoususenix/zkconv.git
    ```
@@ -42,7 +43,7 @@ To use zkConv in your project, follow these steps:
    ```sh
    cargo build --release
    ```
-4. Run examples or benchmarks as needed:
+4. Run examples or benchmarks as needed. All experimental data can be generated using `cargo bench`. This will run the benchmarking suite and output performance metrics for the proof system:
    ```sh
    cargo bench
    ```
@@ -54,7 +55,7 @@ To use zkConv in your project, follow these steps:
    ```sh
    rustup update
    ```
-   
+
 ## Contributing
 
 We welcome contributions to zkConv! If you have ideas for improvements, please feel free to open an issue or submit a pull request. Follow the standard Rust community guidelines and ensure your code passes the tests and benchmarks.

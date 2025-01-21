@@ -46,7 +46,15 @@ To use zkConv in your project, follow these steps:
    ```sh
    cargo bench
    ```
-
+**Note**: If you encounter an error like `failed to parse lock file`, please ensure your Cargo version is at least `1.84.0`. You can check your Cargo version with:
+   ```sh
+   cargo --version
+   ```
+   If your version is lower, update it by running:
+   ```sh
+   rustup update
+   ```
+   
 ## Contributing
 
 We welcome contributions to zkConv! If you have ideas for improvements, please feel free to open an issue or submit a pull request. Follow the standard Rust community guidelines and ensure your code passes the tests and benchmarks.
@@ -54,6 +62,7 @@ We welcome contributions to zkConv! If you have ideas for improvements, please f
 ## License
 
 zkConv is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the license terms.
+
 ---
 
 For more information or questions, please contact the project maintainers.

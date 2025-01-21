@@ -15,19 +15,6 @@ The project is organized into the following directories:
 - **`src`**: The main source code of zkConv, including core logic and implementations.
 - **`tests`**: Unit and integration tests to ensure correctness and reliability of the system.
 
-## How to Run Benchmarks
-
-All experimental data can be generated using `cargo bench`. This will run the benchmarking suite and output performance metrics for the proof system. To execute the benchmarks:
-
-1. Ensure you have the Rust toolchain installed, preferably the nightly version (e.g., `rustc 1.86.0-nightly`).
-2. Navigate to the project root directory.
-3. Run the following command:
-   ```sh
-   cargo bench
-   ```
-
-The results will include detailed performance insights, including execution time and resource usage for various CNN proof scenarios.
-
 ## Installation and Usage
 
 To use zkConv in your project, follow these steps:
